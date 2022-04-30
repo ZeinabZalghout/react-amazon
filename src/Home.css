@@ -1,0 +1,24 @@
+.home {
+
+    background-color: lavender;
+}
+
+/* }
+@media (max-width:1200px) {
+    .home {
+        width: 1186px;
+    }
+    .container{
+        width: 1196px;}
+    
+    }
+    @media (max-width:1000px) {
+        .home {
+            width: 1000px;
+        }
+    
+        .container {
+            width:1000px;
+        }
+    
+    } */

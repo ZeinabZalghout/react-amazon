@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+.subheader {
+    background-color: #232f3e;
+    height: 37px;
+    padding: 3px;
+}
+
+.subheaders {
+    margin-inline: 20px;
+}
+
+.subheader__left {
+    color: white;
+    font-family: 'Akshar',
+        sans-serif;
+    font-size: 0.873rem;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-inline: 8px;
+
+}
+
+.subheader__left__tool:hover {
+    border: 1px solid white;
+}
+
+.all {
+    margin-top: 1px;
+
+}
+
+.subheader__left__tool {
+    display: flex;
+    margin-right: 5px;
+    padding: 4px;
+    margin: 2px;
+    margin-left: 9px;
+    border: 1px solid #232f3e;
+}
+
+.subheader__left__tools {
+    display: flex;
+    margin-right: 5px;
+    margin-top: -2px;
+    flex-direction: column;
+}
+
+span {
+    background-color: white;
+
+    margin-top: 4px;
+    font-weight: 700;
+    width: 17px;
+    transition: none;
+    margin-right: 2px;
+    height: 0.15rem
+}
+
+.subheaderoptions {
+    display: flex;
+    margin-left: 3px;
+}

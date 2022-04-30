@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+.subheaderoption {
+    padding: 3px;
+    background-color: #232f3e;
+    color: white;
+    margin: 3px;
+    padding-inline: 8px;
+    font-size: 16px;
+    border: 1px solid #232f3e;
+}
+
+.subheaderoption1 {
+    background-color: #232f3e;
+    color: white;
+    position: relative;
+    margin-top: 3px;
+    padding-inline: 18px;
+    font-size: 16px;
+    border: 1px solid #232f3e;
+}
+
+.options1 {
+    padding: 3px;
+}
+
+.subheaderoption:hover {
+    border: 1px solid white;
+}
+
+.subheaderoption1:hover {
+    border: 1px solid white;
+}
+
+.arow {
+    color: gray;
+    position: absolute;
+    margin-top: -2px;
+}

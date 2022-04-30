@@ -1,0 +1,526 @@
+.header {
+    display: flex;
+    top: 0;
+    position: sticky;
+    background-color: #131921;
+    width: 100%;
+    color: white;
+    z-index: 999;
+    height: 60px;
+}
+
+.header__elements {
+    background-color: #131921;
+}
+
+.header__left {
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.btn2>button:hover {
+    border: 1px solid white;
+}
+
+.amazon {
+    font-family: cursive;
+    font-size: 27px;
+    letter-spacing: 1px;
+    padding-inline: 9px;
+    margin-top: -14px;
+    font-weight: 900;
+    margin: 1px;
+    color: white;
+    margin-top: 7px;
+    border: 1px solid #131921;
+}
+
+.amazon:hover {
+    border: 1px solid white;
+}
+
+.deliver {
+    font-size: 12px;
+}
+
+.btn2>button {
+    display: flex;
+    border: none;
+    flex-direction: row;
+    padding-inline: 6px;
+    padding-top: 7px;
+    margin-top: 5px;
+    padding-bottom: 8px;
+    color: lightgray;
+    background-color: #131921;
+    border: 1px solid #131921;
+    align-items: center;
+
+}
+
+img {
+
+    height: 50px;
+    margin-right: 10px;
+}
+
+.btn>button>.icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: lightgray;
+
+}
+
+.lebanon {
+    font-size: 13.5px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.header__search>select {
+    background-color: #eef3f8;
+    height: 43px;
+    width: 70px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.header__search>input {
+    outline: none;
+    background: none;
+    background-color: white;
+    height: 42px;
+    border: none;
+    width: 810px;
+}
+
+.header__search>.search__icon {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: orange;
+    width: 42px;
+    height: 42px;
+}
+
+.header__search>.search__icon>p {
+    font-weight: 900;
+
+    margin: 10px;
+    color: black;
+}
+
+.iconlocation {
+    margin-top: 8px;
+}
+
+.header__right {
+    display: flex;
+    margin-left: 10px
+}
+
+.header__flag {
+
+    display: flex;
+    margin: 5px;
+    padding-inline: 5px;
+    padding-top: 12px;
+    border: 1px solid #131921;
+
+}
+
+.header__flag:hover {
+    border: 1px solid white;
+
+}
+
+.account {
+    font-size: 12px;
+    margin: 4px;
+    padding-inline: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 14px;
+    border: 1px solid #131921;
+}
+
+.account2 {
+    font-size: 13px;
+    margin: 4px;
+    padding: 15px 7px 10px 7px;
+    display: flex;
+    flex-direction: column;
+    line-height: 14px;
+    border: 1px solid #131921;
+}
+
+.cart {
+    margin: 4px;
+    font-size: 27px;
+    padding: 10px 7px 10px 7px;
+    display: flex;
+    flex-direction: column;
+    line-height: 12px;
+    border: 1px solid #131921;
+}
+
+.shopping {
+
+    top: 8px;
+}
+
+.count {
+    left: 19px;
+
+    color: #ab6612;
+    font-size: 18px;
+    top: 7px;
+    font-weight: 700
+}
+
+.account:hover {
+    border: 1px solid white;
+}
+
+.account2:hover {
+    border: 1px solid white;
+}
+
+.cart:hover {
+    border: 1px solid white;
+}
+
+.account1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.flag {
+    font-size: 22px;
+}
+
+.arrow {
+    bottom: 8px;
+    position: absolute;
+    right: 350px;
+    color: gray;
+    padding-top: px;
+}
+
+.header__language {
+    width: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
+    border: none;
+    color: gray;
+    background-color: #131921;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.modal {
+    position: fixed;
+    z-index: 20;
+    background: #fff;
+    width: 375px;
+    height: 380px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.modal__header {
+    background-color: #F0F2F2;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    ;
+    padding-inline: 30px;
+    height: 55px;
+    font-size: 12px;
+    color: black;
+    display: flex;
+}
+
+.modal__body {
+    padding-inline: 30px;
+}
+
+.modal__main {
+    padding-top: 12px;
+    padding: 16 23px;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: #565959 !important;
+}
+
+.address {
+    cursor: pointer;
+    font-weight: 600;
+    color: #007185;
+    font-size: 15px;
+}
+
+.hr {
+    margin-top: 15px;
+    display: flex;
+    font-size: 13px;
+    color: gray;
+}
+
+hr {
+
+    width: 28%;
+    height: 1px;
+    border: none;
+    background-color: #afa8a8c2;
+    margin-left: 2px;
+
+}
+
+.text {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 1px;
+}
+
+.text>input {
+    height: 28px;
+    margin-right: 5px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.text>button {
+    background-color: white;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(208, 204, 204);
+    margin-left: 3px;
+}
+
+.text>button:hover {
+    background-color: #eef3f8;
+    border: none;
+}
+
+.hr1 {
+    width: 44%;
+}
+
+.list-item {
+    background-color: #eef3f8;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn1 {
+    height: 35px;
+    width: 70px;
+    background: #FFD814;
+    border-color: #FCD200;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+
+/* 
+ 
+ @media only screen and (max-width: 800px) {
+   
+    .header__search>input {
+        width: 250px;
+            
+    }
+    .header__left {
+        margin-bottom: 10px;
+        margin-left: 1px;}
+        .header__search{
+            padding-left: 6px;
+        }
+    .header__right {
+       
+        margin-left: 6px;
+    }
+    .header__flag {
+     
+        margin-inline: 0px;
+    }
+    .account {
+        font-size: 11px;
+        margin: 8px;
+        padding-inline: 10px;
+        margin-inline: -3px;
+        padding-top: 12px;
+    }  
+  .account1 {
+        
+            font-size: 11px;
+        
+    }
+    .account2 {
+      
+        margin-inline: 2px;}
+    .btn2>button {
+        padding-inline: 0px;
+    }
+    img {
+        width: 71px;
+    }
+    .header__search>select {
+            width: 71px;
+            padding-left: 6px;
+            }
+
+}
+@media (max-width:900px)  {
+     
+        .amazon {
+            width: 74px;
+            margin-inline: 0px;
+            margin-top: 8px;
+                height: 45px;
+          padding-inline: 0px;
+        }
+        .header__search>select {
+          
+            width: 63px;
+          
+        }
+        .header__right {
+            display: flex;
+            margin-left: 3px;
+        }
+        .header__search>input {
+          
+                width: 360px;
+        }
+        .header__search>.search__icon {
+        
+            height: 38px;
+        }
+    .header__search {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        height: 22px;
+        color: gray;
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+        .account{
+            margin-inline: 0px;
+            font-size: 10px;
+           padding-inline: 8px;
+            padding-top: 15px;
+        }
+        .account1 {
+            margin-inline: 0px;
+            font-size: 10px;
+        }
+        .account2 {
+            margin-inline: 0px;
+        }
+         img {
+            width: 68px;
+            height: 40px;
+        }
+        .deliver {
+            font-size: 11px;
+        }
+        .lebanon {
+            font-size: 11.5px;
+            
+        }
+        .header__flag {
+            display: flex;
+            margin: 5px;
+            padding-inline: 3px;
+            padding-top: 16px;
+          
+        }
+        .flag {
+            font-size: 19px;
+        }
+        .header__flag {
+         
+            margin-inline: 2px;
+        }
+} 
+ @media only screen and (max-width: 1200px) and (min-width: 900px) {
+    .amazon {
+        margin-top: 5px;
+    }
+
+    img {
+        width: 79px;
+        height: 45px
+    }
+
+    .cart {
+
+        margin-inline: -3px;
+    }
+
+    .header {
+        height: 55px;
+    }
+
+    .header__left {
+        margin-top: 6px;
+        margin-left: -6px;
+
+    }
+
+    .btn2>button {
+        padding-top: 0px;
+        padding-inline: 2px;
+        margin-top: 4px;
+        height: 50px;
+    }
+
+    .header__search>input {
+        width: 565px;
+    }
+
+    .icon {
+        margin-top: 8px;
+    }
+
+    .header__search>select {
+        height: 43px;
+        width: 64px;
+
+    }
+
+    .account {
+        margin-left: -1px;
+    }
+} */
